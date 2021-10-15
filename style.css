@@ -2,12 +2,20 @@
     box-sizing: border-box;
     margin: 0px;
 }
+body{
+    background-color: whitesmoke;
+}
+h1{
+    color: coral;
+    text-align: center;
+    margin: 10px auto;
+}
 #clock
 {
     height: 40vw;
     width: 40vw;
     margin: 20px auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background: url(clock.png);
     background-size: 100%;
     background-position: center;
@@ -25,23 +33,35 @@
     width: 1.7%;
     height: 24.2%;
     border-radius: 4px;
-    top: 26.3%;
+    top: 25.5%;
     left: 49.2%;
+    /* display: none; */
     
 }
 #minute{
     width: 1.2%;
     height: 27.1%;
     border-radius: 4px;
-    top: 22.4%;
+    top: 23.7%;
     left: 49.5%;
-    display: none;
+    /* background-color: red; */
+    /* display: none; */
 }
 #second{
     width: 0.8%;
     height: 29.4%;
     border-radius: 4px;
-    top: 19.8%;
+    top: 20.5%;
     left: 49.5%;
-    display: none;
+    /* background-color: green; */
+}
+#dot
+{
+    height: 5%;
+    width: 5%;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 48.4%;
+    left: 47.7%;
 }
